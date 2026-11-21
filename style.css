@@ -230,12 +230,23 @@ main{
     }
 }
 
-@media (min-width:480px) and (max-width:500px) {
+@media (min-width:300px) and (max-width:500px) {
     #pr-b a{
         display: flex;
-        
+         
          flex-wrap: nowrap;
     }
+    
+
+    #pr-b h3,#pr-b p, #pr-b a{
+        font-size: .7rem;
+    }
+    
+    #Skills ul{
+        font-size:.8em;
+    }
+    
+
 }
 
 
